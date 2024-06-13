@@ -1,0 +1,46 @@
+<?php session_start();?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="section2" id="section2">
+        <div class="logo">
+            <img src="images/images-removebg-preview.png" alt="">
+        </div>
+        <div class="header">
+            <h2>LOG IN</h2>
+            <p>New User?<a href="signUp.html">Registe</a></p>
+        </div>
+        <form action="" method="POST">
+            <div class="champ" id="reponce"></div>
+            <div class="champ">
+                <label for="text">Enter your email</label>
+                <input type="text" name="email" required>
+            </div>
+            <div class="champ">
+                <label for="password">Enter your password</label>
+                <input type="password" name="password" required>
+            </div>
+            <div class="btn">
+                <button name="login" type="submit" id="btn">LOGIN</button>
+            </div>
+            <div class="lien">
+                <a href="sendEmail.html">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+    <div class="section1" id="section1">
+        <div class="img1">
+            <img src="images/image_5.jpg" alt="">
+        </div>
+       
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+</html>
